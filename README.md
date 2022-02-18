@@ -1,7 +1,7 @@
-# npm
-Nginx Proxy Manager
+# Nginx Proxy Manager
+Expose your services easily and securely
+---
   
-    
 ### Clone Traefik Git Repository:
 ```
 RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
