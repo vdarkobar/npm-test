@@ -13,6 +13,6 @@ chmod +x setup.sh && \
 #### *Setup*:
 <p align="left">
   <a href="https://github.com/vdarkobar/npm/blob/main/shared/CloudFlare.md#create-cloudflare-api-token">CloudFlare</a> |  
-  <a href="https://github.com/vdarkobar/npm/blob/main/shared/CloudFlare.md#create-cloudflare-api-token">CloudFlare</a> |   
+  <a href="https://github.com/vdarkobar/npm/blob/main/shared/CloudFlare.md#create-cloudflare-api-token">?</a> |   
   <br><br>
 </p>  
