@@ -11,7 +11,7 @@ CloudFlare > Profile > API Tokens > Edit zone DNS - Template
 Create Token (edit name: *.example.com) > 
 Permissions: Zone-DNS-EDIT > Zone Resources: INCLUDE-ALL ZONES > Continue to summary > Create Token
 ```
-Copy Token and paste to:
+Copy *Token* and paste it to:
 ```
 Nginx Proxy Manager > SSL Certificates > Add SL Certificate > Let's Encrypt > Domain Names: *.example.com example.com
 ```
