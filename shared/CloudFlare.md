@@ -1,5 +1,5 @@
 <p align="left">
-  <a href="https://github.com/vdarkobar/npm#nginx-proxy-manager">Home</a>
+  <a href="https://github.com/vdarkobar/npm">Home</a>
   <br><br>
 </p> 
   
