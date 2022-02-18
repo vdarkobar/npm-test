@@ -14,8 +14,9 @@ chmod +x setup.sh && \
 
 Used for *DNS Challenge* to create *Wildcard Certificates*.
 ```
-CloudFlare > Profile > API Tokens > Edit zone DNS Template
-Create Token (edit name: *.example.com) > Permissions: Zone-DNS-EDIT > Zone Resources: INCLUDE-ALL ZONES > Continue to summary > Create Token
+CloudFlare > Profile > API Tokens > Edit zone DNS - Template
+Create Token (edit name: *.example.com) > 
+Permissions: Zone-DNS-EDIT > Zone Resources: INCLUDE-ALL ZONES > Continue to summary > Create Token
 ```
 Copy Token and paste to:
 ```
