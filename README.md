@@ -10,4 +10,9 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
   
-### Create <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare API Tokens</a>:
+### Create <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare API Token</a>. 
+
+Used for DNS Challenge to create Wildcard Certificate.
+```
+Nginx Proxy Manager > SSL Certificates > Add SL Certificate > Let's Encrypt > Domain Names: *.example.com example.com
+```
