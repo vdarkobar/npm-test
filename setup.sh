@@ -9,6 +9,7 @@ sed -i "s|02|${PORTN}|" .env && \
 rm README.md && \
 rm data/mysql/tmp && \
 rm letsencrypt/tmp && \
+sudo rm -rf shared/
 sudo chown -R root:root secrets/ && \
 sudo chmod -R 600 secrets/ && \
 while true; do
