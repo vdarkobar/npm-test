@@ -30,8 +30,8 @@ services:
         protocol: tcp
         mode: host
         
-      - target: $PORT
-        published: 81
+      - target: 81
+        published: $PORT
         protocol: tcp
         mode: host
         
