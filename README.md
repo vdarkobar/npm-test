@@ -1,5 +1,5 @@
 # Nginx Proxy Manager
-Expose your services easily and securely
+#### Expose your services easily and securely
 ---
   
 ### Clone this Git Repository:
