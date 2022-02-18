@@ -10,10 +10,9 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
   
-<---!
+<!---
 *Docker commands*:
 ```
-
 sudo docker-compose up                         # Builds, (re)creates, starts, and attaches to containers for a service.
 sudo docker-compose up -d                      # Detached mode: Run containers in the background.
 sudo docker-compose up -d --build              # Build images before creating containers.
