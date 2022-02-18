@@ -10,16 +10,4 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
   
-<!---
-*Docker commands*:
-```
-sudo docker-compose up                         # Builds, (re)creates, starts, and attaches to containers for a service.
-sudo docker-compose up -d                      # Detached mode: Run containers in the background.
-sudo docker-compose up -d --build              # Build images before creating containers.
-sudo docker-compose up -d --force-recreate     # Recreate containers even if their configuration and image haven't changed.
-sudo docker-compose down                       # Stops containers and removes containers.
-sudo docker-compose pull                       # Pulls an image associated with a service defined in a docker-compose.yml
-```
----
-
 ### Create <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare API Tokens</a>:
