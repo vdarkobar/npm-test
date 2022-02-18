@@ -6,6 +6,9 @@ db_root_pwd=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 25); echo ${db_root_pwd} 
 mysql_pwd=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 25); echo ${mysql_pwd} > secrets/mysql_pwd.secret && \
 sed -i "s|01|${TZONE}|" .env && \
 sed -i "s|02|${PORTN}|" .env && \
+rm README.md && \
+rm data/mysql/tmp && \
+rm letsencrypt/tmp && \
 sudo chown -R root:root secrets/ && \
 sudo chmod -R 600 secrets/ && \
 sudo docker-compose up -d
