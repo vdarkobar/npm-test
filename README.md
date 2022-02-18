@@ -10,6 +10,11 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
   
+Visit your *server local ip* + *port* designated during setup:
+```
+http://<LocalIP>:<PORT>
+```
+  
 #### *Setup*:
 <p align="left">
   <a href="https://github.com/vdarkobar/npm/blob/main/shared/CloudFlare.md#create-cloudflare-api-token">CloudFlare</a> |  
