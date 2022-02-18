@@ -10,8 +10,7 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
   
-# How-To:
-  
+### How-To:
 <p align="left">
   <a href="https://github.com/vdarkobar/npm#nginx-proxy-manager">Home</a> |
   <a href="https://github.com/vdarkobar/npm/blob/main/shared/CloudFlare.md#create-cloudflare-api-token">CloudFlare</a> |
