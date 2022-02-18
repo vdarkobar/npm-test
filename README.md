@@ -21,3 +21,5 @@ sudo docker-compose down                       # Stops containers and removes co
 sudo docker-compose pull                       # Pulls an image associated with a service defined in a docker-compose.yml
 ```
 ---
+
+### Create <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare API Tokens</a>:
