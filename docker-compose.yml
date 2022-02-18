@@ -19,10 +19,10 @@ services:
     networks:
       - npm
 
-    ports:
-      - '80:80'
-      - '443:443'
-      - '81:81'
+#    ports:
+#      - '80:80'
+#      - '443:443'
+#      - '81:81'
 
     ports:
       - target: 80
@@ -30,7 +30,7 @@ services:
         protocol: tcp
         mode: host
         
-      - target: 80
+      - target: $PORT
         published: 81
         protocol: tcp
         mode: host
@@ -89,7 +89,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
 
     environment:
-      - TZ=Germany/Berlin
+      - TZ=$TZ
       - WATCHTOWER_DEBUG=true
       - WATCHTOWER_CLEANUP=true
       - WATCHTOWER_REMOVE_VOLUMES=true
