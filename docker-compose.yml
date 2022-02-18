@@ -24,6 +24,22 @@ services:
       - '443:443'
       - '81:81'
 
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+        mode: host
+        
+      - target: 80
+        published: 81
+        protocol: tcp
+        mode: host
+        
+      - target: 443
+        published: 443
+        protocol: tcp
+        mode: host
+
     environment:
       DB_MYSQL_HOST: "db"
       DB_MYSQL_PORT: 3306
@@ -40,6 +56,7 @@ services:
 
     depends_on:
       - db
+
   db:
     image: jc21/mariadb-aria
     restart: unless-stopped
