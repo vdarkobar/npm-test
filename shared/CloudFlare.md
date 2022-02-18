@@ -5,7 +5,7 @@
   
 ### Create <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare API Token</a>. 
 
-Used for *DNS Challenge* to create *Wildcard Certificates*.
+Used for *DNS Challenge* to create *Wildcard Certificates* for your services.
 ```
 CloudFlare > Profile > API Tokens > Edit zone DNS - Template
 Create Token (edit name: *.example.com) > 
