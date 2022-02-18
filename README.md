@@ -13,6 +13,7 @@ chmod +x setup.sh && \
 *Docker commands*:
 ```
 sudo docker-compose down                       # Stops containers and removes containers.
+sudo docker-compose up                         # Builds, (re)creates, starts, and attaches to containers for a service.
 sudo docker-compose up -d                      # Detached mode: Run containers in the background.
 sudo docker-compose up -d --build              # Build images before creating containers.
 sudo docker-compose up -d --force-recreate     # Recreate containers even if their configuration and image haven't changed.
