@@ -2,7 +2,7 @@
 Expose your services easily and securely
 ---
   
-### Clone Traefik Git Repository:
+### Clone this Git Repository:
 ```
 RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
 mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/npm.git .
@@ -14,7 +14,7 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
   
-### Start Traefik:
+### Start NPM:
 ```
 sudo docker-compose up -d
 ```
