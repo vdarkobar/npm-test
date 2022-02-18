@@ -10,6 +10,7 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
   
+<---!
 *Docker commands*:
 ```
 
@@ -20,3 +21,4 @@ sudo docker-compose up -d --force-recreate     # Recreate containers even if the
 sudo docker-compose down                       # Stops containers and removes containers.
 sudo docker-compose pull                       # Pulls an image associated with a service defined in a docker-compose.yml
 ```
+---
