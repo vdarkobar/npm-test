@@ -10,7 +10,7 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
   
-Docker commands:
+*Docker commands*:
 ```
 sudo docker-compose down                       # Stops containers and removes containers.
 sudo docker-compose up -d                      # Detached mode: Run containers in the background.
