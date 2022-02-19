@@ -46,7 +46,7 @@ https://<NextCloud> > Account > Settings > Collabora Online Development Edition
 Enter *Collabora* - Document Server url (*no Port Number needed*):
   
 <p align="center">
-  <img src="https://github.com/vdarkobar/shared/blob/main/Collabora.webp">
+  <img src="https://github.com/vdarkobar/NPM/blob/main/shared/Collabora.webp">
 </p>
 
 Colabora Admin interface (username admin):
