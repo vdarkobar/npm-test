@@ -2,7 +2,7 @@
 #### Expose your services easily and securely
 ---
   
-Login to <a href="https://dash.cloudflare.com/">CloudFlare</a> and point your root Domain to your WAN IP using an A record.  
+Login to <a href="https://dash.cloudflare.com/">CloudFlare</a> add a website and point your root Domain to your WAN IP using an A record.  
 ```
     A | example.com | YOUR WAN IP
 ```
