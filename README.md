@@ -19,7 +19,7 @@ http://<LocalIP>:<PORT>
 <p align="left">
   <a href="https://github.com/vdarkobar/npm/blob/main/shared/CloudFlare.md#create-cloudflare-api-token">CloudFlare</a> |  
   <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> |  
-  <a href="https://github.com/vdarkobar/Vaultwarden">NextCloud</a> |  
+  <a href="https://github.com/vdarkobar/NC">NextCloud</a> |  
   <a href="https://github.com/vdarkobar/npm/blob/main/shared/404.md">404 page</a> |   
   <br><br>
 </p>  
