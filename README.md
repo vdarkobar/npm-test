@@ -18,7 +18,7 @@ http://<LocalIP>:<PORT>
 #### *Additional setup*:
 <p align="left">
   <a href="https://github.com/vdarkobar/npm/blob/main/shared/CloudFlare.md#create-cloudflare-api-token">CloudFlare</a> |  
-  <a href="https://github.com/vdarkobar/Vaultwarden.md">Vaultwarden</a> |  
+  <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> |  
   <a href="https://github.com/vdarkobar/npm/blob/main/shared/404.md">Custom 404 page</a> |   
   <br><br>
 </p>  
