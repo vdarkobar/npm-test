@@ -57,5 +57,5 @@ https://yourdomain.tld/loleaflet/dist/admin/admin.html
 #### Setup SMTP server for gmail (use App-passwords option if 2fa is enabled on the account):
   
 <p align="center">
-  <img src="https://github.com/vdarkobar/shared/blob/main/smtp.webp">
+  <img src="https://github.com/vdarkobar/NPM/blob/main/shared/smtp.webp">
 </p>
