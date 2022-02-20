@@ -7,7 +7,7 @@ Login to <a href="https://dash.cloudflare.com/">CloudFlare</a> add a website and
     A | example.com | YOUR WAN IP
 ```
 <p align="center">
-  <img src="https://github.com/vdarkobar/misc/blob/main/A-record.webp">
+  <img src="https://github.com/vdarkobar/NPM/blob/main/shared/A-record.webp">
 </p>
   
 Add individual *subdomains*, for all services, pointing to your root Domain (@ for the host).  
