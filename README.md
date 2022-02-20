@@ -1,5 +1,7 @@
+<p align="center">
 # Nginx Proxy Manager
 ### *As a Reverse Proxy for all of your Services!*
+</p>
 ---
   
 Login to <a href="https://dash.cloudflare.com/">CloudFlare</a> add a website and point your root Domain to your WAN IP using an A record.  
