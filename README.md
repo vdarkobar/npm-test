@@ -15,7 +15,7 @@ Add individual *subdomains*, for all services, pointing to your root Domain (@ f
     CNAME | * | @ (or example.com)
 ```
 <p align="center">
-  <img src="https://github.com/vdarkobar/misc/blob/main/sub-domain.webp">
+  <img src="https://github.com/vdarkobar/NPM/blob/main/shared/sub-domain.webp">
 </p>
   
 Add for non-WWW to WWW redirect.  
