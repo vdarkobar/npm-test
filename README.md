@@ -48,12 +48,14 @@ Firewall Settings:
   Browser Integrity Check: ON  
 </pre>
   
+  
 <p align="center">
   <b> Wait for DNS entries to propagate. Optionally, edit CloudFlare Firewall rules. </b><br>
   <b> In order to see if Let’s Encrypt is working pause CloudFlare on selected website before running docker-compose. </b><br>
   <b><i> (Overview > Advanced Actions > Pause Cloudflare on Site) </i></b><br>
 </p>
-    
+  
+  
 ### Create <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare API Token</a>. 
 
 Used for *DNS Challenge* to create *Wildcard Certificates* for your services.
