@@ -99,4 +99,4 @@ Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Tok
   <br><br>
 </p>  
 
-<span style="color:red">some *blue* text</span>.
+<span style="color:blue">some *blue* text</span>.
