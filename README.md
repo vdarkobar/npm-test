@@ -53,8 +53,6 @@ Firewall Settings:
   <b> In order to see if Let’s Encrypt is working pause CloudFlare on selected website before running docker-compose. </b><br>
   <b><i> (Overview > Advanced Actions > Pause Cloudflare on Site) </i></b><br>
 </p>
-
----  
   
 ---  
 
