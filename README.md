@@ -47,9 +47,7 @@ Firewall Settings:
   Challenge Passage: 30 Minutes  
   Browser Integrity Check: ON  
 </pre>
-  
----
-
+   
 <p align="center">
   <b> Wait for DNS entries to propagate. Optionally, edit CloudFlare Firewall rules. </b><br>
   <b> In order to see if Let’s Encrypt is working pause CloudFlare on selected website before running docker-compose. </b><br>
