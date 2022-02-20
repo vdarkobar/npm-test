@@ -98,3 +98,8 @@ Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Tok
   <a href="https://github.com/vdarkobar/npm/blob/main/shared/404.md">404 page</a> |   
   <br><br>
 </p>  
+
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
+
