@@ -23,7 +23,7 @@ Add for non-WWW to WWW redirect.
     CNAME | www | YOUR WAN IP
 ```
 <p align="center">
-  <img src="https://github.com/vdarkobar/misc/blob/main/www.webp">
+  <img src="https://github.com/vdarkobar/NPM/blob/main/shared/www.webp">
 </p>
   
 #### Site settings:  
