@@ -1,5 +1,5 @@
 <p align="left">
-  <a href="https://github.com/vdarkobar/NC">NextCloud</a>
+  <a href="https://github.com/vdarkobar/WP">NextCloud</a>
   <br><br>
 </p> 
   
