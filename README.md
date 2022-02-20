@@ -92,9 +92,8 @@ Visit your *server local ip* + *port* designated during setup:
 http://<LocalIP>:<PORT>
 ```
   
-#### *Additional setup*:
+#### *Additional Services*:
 <p align="left">
-  <a href="https://github.com/vdarkobar/npm/blob/main/shared/CloudFlare.md#create-cloudflare-api-token">CloudFlare</a> |  
   <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> |  
   <a href="https://github.com/vdarkobar/NC">NextCloud</a> |  
   <a href="https://github.com/vdarkobar/WP">WordPress</a> |  
