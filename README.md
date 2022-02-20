@@ -92,7 +92,7 @@ Visit your *server local ip* + *port* designated during setup:
 http://<LocalIP>:<PORT>
 ```
   
-#### *Additional Services*:
+### *Additional Services*:
 <p align="left">
   <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> |  
   <a href="https://github.com/vdarkobar/NC">NextCloud</a> |  
