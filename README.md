@@ -70,7 +70,7 @@ Copy *Token* and paste it to:
 ```
 Nginx Proxy Manager > SSL Certificates > Add SSL Certificate > Let's Encrypt > Domain Names (enter: *.example.com example.com) 
 
-Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Token after = sign
+Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Token after = sign).
 ```
   
 ---  
