@@ -92,7 +92,7 @@ Nginx Proxy Manager > SSL Certificates > Add SSL Certificate > Let's Encrypt > D
 Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Token after = sign).
 ```
   
-### *Additional Services*:
+### *Additional Services/Configurations*:
 <p align="center">
   <a href="https://github.com/vdarkobar/Authelia">Authelia</a> |
   <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> |  
