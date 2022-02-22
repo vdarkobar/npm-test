@@ -94,6 +94,7 @@ Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Tok
   
 ### *Additional Services*:
 <p align="left">
+  <a href="https://github.com/vdarkobar/Authelia">Authelia</a> |
   <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> |  
   <a href="https://github.com/vdarkobar/NC">NextCloud</a> |  
   <a href="https://github.com/vdarkobar/WP">WordPress</a> |  
