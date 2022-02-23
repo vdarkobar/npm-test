@@ -64,6 +64,11 @@ Firewall Settings:
 
 ---  
   
+#### *Decide what you will use for*:
+```
+Time zone nad NPM Port Number.
+```
+  
 ### *Run this command*:
 ```
 RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
