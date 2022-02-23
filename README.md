@@ -66,7 +66,7 @@ Firewall Settings:
   
 #### *Decide what you will use for*:
 ```
-Time zone nad NPM Port Number.
+Time Zone nad NPM Port Number.
 ```
   
 ### *Run this command*:
