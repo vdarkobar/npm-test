@@ -6,23 +6,21 @@ networks:
     driver: bridge
 
 secrets:
+
   DB_ROOT_PWD:
     file: ./secrets/db_root_pwd.secret
   MYSQL_PWD:
     file: ./secrets/mysql_pwd.secret
 
 services:
+
+  # Nginx Proxy Manager - Expose your services easily and securely.
   app:
     image: 'jc21/nginx-proxy-manager:latest'
     restart: unless-stopped
 
     networks:
       - npm
-
-#    ports:
-#      - '80:80'
-#      - '443:443'
-#      - '81:81'
 
     ports:
       - target: 80
@@ -57,6 +55,7 @@ services:
     depends_on:
       - db
 
+  # MariaDB - The open source relational database.
   db:
     image: jc21/mariadb-aria
     restart: unless-stopped
@@ -77,6 +76,7 @@ services:
       - DB_ROOT_PWD
       - MYSQL_PWD
 
+  # Watchtower - automating Docker container base image updates.
   watchtower:
     image: containrrr/watchtower
     container_name: watchtower
