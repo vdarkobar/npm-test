@@ -3,6 +3,11 @@
   <br><br>
 </p> 
   
+After editing *configuration.yml*, for settings to apply, run:
+```
+sudo docker-compose restart
+```
+  
 ### *Copy Custom Nginx Configuration to*:
 ```
 Nginx Proxy Manager > Proxy Hosts > Edit > Advanced > Custom Nginx Configuration
