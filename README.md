@@ -40,8 +40,7 @@ Edge Certificates:
   Opportunistic Encryption: ON  
   TLS 1.3: ON  
   Automatic HTTPS Rewrites: ON  
-  Certificate Transparency Monitoring: ON  
-  HSTS: ON  
+  Certificate Transparency Monitoring: ON   
   
 Firewall Settings:  
   Security Level: High  
