@@ -31,7 +31,7 @@ Add for non-WWW to WWW redirect.
 #### Site settings:  
 
 <pre>
-SSL/TLS Mode - Full  
+SSL/TLS Mode - Strict  
 
 Edge Certificates:  
   Always Use HTTPS: ON  
