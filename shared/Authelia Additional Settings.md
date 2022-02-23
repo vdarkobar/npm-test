@@ -51,7 +51,7 @@ real_ip_recursive on;
 }
 ```
   
-Protected Doman/Subdomain (blog.example.com, wiki.example.com, ...)
+Protected Endpoint (blog.example.com, wiki.example.com, ...)
 ```
 location /authelia {
 internal;
