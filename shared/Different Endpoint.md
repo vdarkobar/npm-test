@@ -7,7 +7,7 @@ Change/Adjust:
 ```
 - Container names
 - IP:PORT combinations
-- Subdomain.Domainnamecombinations
+- Subdomain.Domain name combinations
 - Network IP Range and Subnet mask
 ```
   
