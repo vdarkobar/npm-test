@@ -3,11 +3,18 @@
   <br><br>
 </p> 
   
+Change:
+```
+- Container names
+- IP:PORT combinations
+- Subdomain.Domain name combinations
+```
+  
 Protected Endpoint (blog.example.com, wiki.example.com, ...)
 ```
 location /authelia {
 internal;
-set $upstream_authelia http://IP:PORT/api/verify; #Authelia, Container name IP:PORT
+set $upstream_authelia http://IP:PORT/api/verify; #_authelia represents Authelia container name, Authelia IP:PORT
 proxy_pass_request_body off;
 proxy_pass $upstream_authelia;    
 proxy_set_header Content-Length "";
