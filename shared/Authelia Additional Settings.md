@@ -4,7 +4,7 @@
 </p> 
   
 Applies when Authelia and Protected Endpoint are on the same Docker Host/Server.  
-If Authelia and Protected Endpoints are on the different Docker Host/Server use <a href="https://github.com/vdarkobar/Authelia">Authelia</a>example.
+If Authelia and Protected Endpoints are on the different Docker Host/Server use <a href="https://github.com/vdarkobar/Authelia">this</a> example.
   
 After editing *configuration.yml*, for settings to apply, run:
 ```
