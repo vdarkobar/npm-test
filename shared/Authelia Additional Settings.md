@@ -6,7 +6,15 @@
 - Applies when Authelia and Protected Endpoints are on the same Docker Host/Server.  
 - If Authelia and Protected Endpoints are on the different Docker Host/Server use <a href="https://github.com/vdarkobar/NPM/blob/main/shared/Different%20Endpoint.md">this</a> example.
   
-After editing *configuration.yml*, for settings to apply, run:
+Change/Adjust:
+```
+- Container names
+- IP:PORT combinations
+- Subdomain.Domain name combinations
+- Network IP Range and Subnet mask
+```
+  
+After editing *configuration.yml*, for Authelia settings to apply, run:
 ```
 sudo docker-compose restart
 ```
