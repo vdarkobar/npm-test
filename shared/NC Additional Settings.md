@@ -5,7 +5,7 @@
   
 #### Edit *config.php* file:
 ```
-sudo nano /home/<USER>/NextCloud/files/config/config.php
+sudo nano /home/<USER>/<NextCloudFolder>/files/config/config.php
 ```  
   
  Slow login, edit: *'overwrite.cli.url' => ...*
