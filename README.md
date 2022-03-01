@@ -6,53 +6,6 @@
 # Nginx Proxy Manager
 ### *As a Reverse Proxy for all of your Services!*  
   
----
-  
-Login to <a href="https://dash.cloudflare.com/">CloudFlare</a>, add a website and point your root Domain to your WAN IP using an A record.  
-```
-    A | example.com | YOUR WAN IP
-```
-<p align="center">
-  <img src="https://github.com/vdarkobar/NPM/blob/main/shared/A-record.webp">
-</p>
-  
-Add individual *subdomains*, for all services, pointing to your root Domain (@ for the host).  
-```
-    CNAME | * | @ (or example.com)
-```
-<p align="center">
-  <img src="https://github.com/vdarkobar/NPM/blob/main/shared/sub-domain.webp">
-</p>
-  
-Add for non-WWW to WWW redirect.  
-```
-    CNAME | www | YOUR WAN IP
-```
-<p align="center">
-  <img src="https://github.com/vdarkobar/NPM/blob/main/shared/www.webp">
-</p>
-  
-#### Site settings:  
-
-<pre>
-SSL/TLS Mode - Full (strict)  
-
-Edge Certificates:  
-  Always Use HTTPS: ON  
-  HTTP Strict Transport Security (HSTS): Enable (Be Cautious)  
-  Minimum TLS Version: 1.2  
-  Opportunistic Encryption: ON  
-  TLS 1.3: ON  
-  Automatic HTTPS Rewrites: ON  
-  Certificate Transparency Monitoring: ON   
-  
-Firewall Settings:  
-  Security Level: High  
-  Bot Fight Mode: ON  
-  Challenge Passage: 30 Minutes  
-  Browser Integrity Check: ON  
-</pre>
-   
 ---  
   
 #### *Decide what you will use for*:
