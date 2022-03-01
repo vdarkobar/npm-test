@@ -7,7 +7,7 @@
 ### *As a Reverse Proxy for all of your Services!*  
 
 <p align="center">
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/bastion.webp">
+  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/reverse-proxy.png">
 </p>
   
 ---  
