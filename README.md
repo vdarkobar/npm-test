@@ -32,7 +32,7 @@ http://<LocalIP>:<PORT>
 
 ### Create <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare API Token</a>. 
 
-Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domain (unlimited Subdomains).
+Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domain (*unlimited Subdomains*).
 ```
 CloudFlare > Profile > API Tokens > Edit zone DNS - Template
 Create Token (edit name: *.example.com) > 
