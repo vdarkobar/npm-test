@@ -30,13 +30,13 @@ chmod +x setup.sh && \
   
 Visit your *server local ip* + *port* designated during setup:  
 ```Bash
-http://LocalIP:PortNumber*  
+http://LocalIP:PortNumber  
 ```
   
 Default Administrator User:  
 ```bash
 Email:    admin@example.com  
-Password: changeme*  
+Password: changeme  
 ```
   
 ### Create <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare API Token</a>. 
