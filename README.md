@@ -29,15 +29,16 @@ chmod +x setup.sh && \
 ```
   
 Visit your *server local ip* + *port* designated during setup:  
-
-> *http://LocalIP:PortNumber*
+```Bash
+http://LocalIP:PortNumber*  
+```
   
-
 Default Administrator User:  
-> *Email:    admin@example.com*  
-> *Password: changeme*  
+```bash
+Email:    admin@example.com  
+Password: changeme*  
+```
   
-
 ### Create <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare API Token</a>. 
 
 Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domain (*unlimited Subdomains*).
