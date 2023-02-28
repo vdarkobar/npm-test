@@ -33,7 +33,7 @@ http://<LocalIP>:<PORT>
 
 Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domain (*unlimited Subdomains*).
   
-> CloudFlare > Profile > API Tokens > Create Token > Edit zone DNS - Use Template  
+> CloudFlare: Profile > API Tokens > Create Token > Edit zone DNS - Use Template  
   
 > Create Token: change the name (*use domain name with the star in front: *.example.com*)  
   
