@@ -30,7 +30,7 @@ http://<LocalIP>:<PORT>
 ```
   
 Default Administrator User:  
-> *Email:    <admin@example.com>  
+> *Email:    admin@example.com  
 > *Password: changeme  
   
 
