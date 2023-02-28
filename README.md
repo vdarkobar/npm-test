@@ -28,10 +28,10 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
   
-Visit your *server local ip* + *port* designated during setup:
-```
-http://<LocalIP>:<PORT>
-```
+Visit your *server local ip* + *port* designated during setup:  
+
+> *http://<LocalIP>:<PORT>*
+
   
 Default Administrator User:  
 > *Email:    admin@example.com*  
