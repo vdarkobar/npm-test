@@ -13,9 +13,9 @@ sudo rm -rf shared/ && \
 sudo chown -R root:root secrets/ && \
 sudo chmod -R 600 secrets/ && \
 while true; do
-    read -p "Execute 'docker-compose up -d' now? (y/n)" yn
+    read -p "Execute 'docker compose up -d' now? (y/n)" yn
     case $yn in
-        [Yy]* ) sudo docker-compose up -d; break;;
+        [Yy]* ) sudo docker compose up -d; break;;
         [Nn]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
