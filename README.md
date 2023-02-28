@@ -12,7 +12,9 @@
   
 ---  
   
-### Enable port forwarding (80, 443) from your Router/Firewall to your Traefik instance (VM).
+<p align="center">
+>> Enable port forwarding (80, 443) from your Router/Firewall to your Traefik instance (VM). <<
+</p>
   
 #### Decide what you will use for:
   
