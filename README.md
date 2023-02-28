@@ -13,9 +13,8 @@
 ---  
   
 #### *Decide what you will use for*:
-```
-Time Zone nad NPM Port Number.
-```
+  
+> *Time Zone* and *NPM Port Number*.
   
 ### *Run this command*:
 ```
