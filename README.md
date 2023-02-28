@@ -29,9 +29,9 @@ Visit your *server local ip* + *port* designated during setup:
 http://<LocalIP>:<PORT>
 ```
   
-Default Administrator User
-> Email:    admin@example.com
-> Password: changeme
+Default Administrator User  
+> Email:    admin@example.com  
+> Password: changeme  
   
 ### Create <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare API Token</a>. 
 
