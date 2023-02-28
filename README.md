@@ -14,7 +14,7 @@
   
 #### *Decide what you will use for*:
   
-> *Time Zone* and *NPM Port Number*.
+> *Directory name, Time Zone* and *NPM Port Number*.
   
 ### *Run this command*:
 ```
