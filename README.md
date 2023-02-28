@@ -28,7 +28,7 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
   
-Visit your *server local ip* + *port* designated during setup:  
+Visit your *server local ip* + *port number* designated during setup:  
 ```Bash
 http://LocalIP:PortNumber  
 ```
