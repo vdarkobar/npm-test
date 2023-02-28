@@ -12,6 +12,8 @@
   
 ---  
   
+### Enable port forwarding (80, 443) from your Router/Firewall to your Traefik instance (VM).
+  
 #### Decide what you will use for:
   
 > *Directory name, Time Zone* and *NPM Port Number*.
