@@ -4,7 +4,7 @@
 </p> 
   
 # Nginx Proxy Manager
-### *As a Reverse Proxy for all of your Services!*  
+### *as a Reverse Proxy for all of your Services!*  
 
 <p align="center">
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/reverse-proxy.png">
