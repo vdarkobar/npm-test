@@ -30,7 +30,7 @@ chmod +x setup.sh && \
   
 Visit your *server local ip* + *port* designated during setup:  
 
-> *http://<LocalIP>:<PORT>*
+> *http://LocalIP:PORTNUMBER*
 
   
 Default Administrator User:  
