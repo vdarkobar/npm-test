@@ -12,7 +12,7 @@
   
 ---  
   
-#### *Decide what you will use for*:
+#### Decide what you will use for:
   
 > *Directory name, Time Zone* and *NPM Port Number*.
   
