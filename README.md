@@ -111,5 +111,6 @@ sudo cscli decisions list
 cscli
 ```  
   
-    
+Enroll your CrowdSec instance at <a href="https://app.crowdsec.net/instances">app.crowdsec.net</a> 
+  
 <a href="https://github.com/vdarkobar/NPM/blob/main/README.md#nginx-proxy-manager">top of the page</a>  
