@@ -64,7 +64,37 @@ Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domai
 > Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Token after = sign).  
   
 
-crowd sec tut for collections + bouncer
+## Run CrowdSec setup again, in order to detect NPM services and install available Collections:
+```bash
+sudo /usr/share/crowdsec/wizard.sh -c
+```
+  
+or do it manualy:
+  
+### Nginx Proxy Manager collection:
+A collection to defend nginx against common attacks
+sudo cscli collections install crowdsecurity/nginx-proxy-manager
+  
+### Parse Nginx Proxy Manager access and error logs:
+sudo cscli parsers install crowdsecurity/nginx-proxy-manager-logs
+  
+## Install Nginx Bouncer:
+sudo apt install nginx lua5.1 libnginx-mod-http-lua luarocks gettext-base lua-cjson
+sudo apt install crowdsec-nginx-bouncer
+  
+### Nginx collection:
+A collection to defend nginx against common attacks
+sudo cscli collections install crowdsecurity/nginx
+  
+sudo systemctl restart nginx
+sudo systemctl reload crowdsec
+  
+### Debug:
+sudo tail -f /var/log/crowdsec.log
+sudo cscli bouncers list
+sudo cscli decisions list
+cscli
+  
   
   
 <a href="https://github.com/vdarkobar/NPM/blob/main/README.md#nginx-proxy-manager">top of the page</a>  
