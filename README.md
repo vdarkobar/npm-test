@@ -61,5 +61,9 @@ Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domai
   
 > Nginx Proxy Manager > SSL Certificates > Add SSL Certificate > Let's Encrypt > Domain Names (enter: *.example.com example.com) 
 
-> Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Token after = sign).
+> Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Token after = sign).  
+  
+  
+<a href="https://github.com/vdarkobar/Home-Cloud/edit/main/README.md">Choose a Reverse Proxy</a>  
+  
   
