@@ -45,7 +45,7 @@ Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domai
   
 > CloudFlare: Profile > API Tokens > Create Token > Edit zone DNS - Use Template  
   
-> Create Token: change the name (*use domain name with the star in front: *.example.com*)  
+> Create Token: change the name (use domain name with the star in front: *.example.com)  
   
 > Permissions: Zone > DNS > Edit
   
