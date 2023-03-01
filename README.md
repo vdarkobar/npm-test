@@ -11,10 +11,10 @@
 </p>
   
 ---  
-  
 <p align="center">
 Enable Port forwarding (80, 443) from your Router/Firewall to your NPM instance (VM).
 </p>
+---  
   
 #### Decide what you will use for:
   
