@@ -63,6 +63,7 @@ Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domai
 
 > Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Token after = sign).  
   
+  <br><br>
 ---
   
 ### Run CrowdSec setup again, in order to detect NPM services and install available Collections:
@@ -105,7 +106,7 @@ sudo tail -f /var/log/crowdsec.log
 sudo cscli bouncers list
 sudo cscli decisions list
 cscli
+```  
   
-  
-  
+    
 <a href="https://github.com/vdarkobar/NPM/blob/main/README.md#nginx-proxy-manager">top of the page</a>  
