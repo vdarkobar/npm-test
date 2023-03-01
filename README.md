@@ -63,7 +63,3 @@ Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domai
 
 > Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Token after = sign).  
   
-  
-<a href="https://github.com/vdarkobar/Home-Cloud/edit/main/README.md">Choose a Reverse Proxy</a>  
-  
-  
