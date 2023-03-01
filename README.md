@@ -63,8 +63,9 @@ Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domai
 
 > Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Token after = sign).  
   
-
-## Run CrowdSec setup again, in order to detect NPM services and install available Collections:
+---
+  
+### Run CrowdSec setup again, in order to detect NPM services and install available Collections:
 ```bash
 sudo /usr/share/crowdsec/wizard.sh -c
 ```
