@@ -72,6 +72,12 @@ sudo /usr/share/crowdsec/wizard.sh -c
 ```
   
 or do it manualy:
+
+### Nginx collection:
+A collection to defend nginx against common attacks
+```bash
+sudo cscli collections install crowdsecurity/nginx
+```
   
 ### Nginx Proxy Manager collection:
 A collection to defend nginx against common attacks
@@ -90,11 +96,6 @@ sudo apt install nginx lua5.1 libnginx-mod-http-lua luarocks gettext-base lua-cj
 sudo apt install crowdsec-nginx-bouncer
 ```
   
-### Nginx collection:
-A collection to defend nginx against common attacks
-```bash
-sudo cscli collections install crowdsecurity/nginx
-```
 ```bash
 sudo systemctl restart nginx
 sudo systemctl reload crowdsec
