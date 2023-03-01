@@ -67,7 +67,7 @@ Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domai
   
   <br><br>
 ---
-  
+
 ### Run CrowdSec setup again, in order to detect NPM services and install available Collections:
 ```bash
 sudo /usr/share/crowdsec/wizard.sh -c
