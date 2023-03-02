@@ -37,7 +37,7 @@ http://LocalIP:PortNumber
   
 Default Administrator User:  
 ```bash
-Email:    admin@example.com  
+Email:    admin@example.com
 Password: changeme  
 ```
   
