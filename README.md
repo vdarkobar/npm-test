@@ -94,12 +94,12 @@ sudo cscli parsers install crowdsecurity/nginx-proxy-manager-logs
   
 ## Install Nginx Bouncer:
 ```bash
-sudo apt install nginx lua5.1 libnginx-mod-http-lua luarocks gettext-base lua-cjson
+sudo apt install nginx lua5.1 libnginx-mod-http-lua luarocks gettext-base lua-cjson && \
 sudo apt install crowdsec-nginx-bouncer
 ```
   
 ```bash
-sudo systemctl restart nginx
+sudo systemctl restart nginx && \
 sudo systemctl reload crowdsec
 ```  
   
