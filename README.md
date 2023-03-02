@@ -67,50 +67,6 @@ Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domai
   
   <br><br>
 ---
-
-### Run CrowdSec setup again, in order to detect NPM services and install available Collections:
-```bash
-sudo /usr/share/crowdsec/wizard.sh -c
-```
   
-or do it manualy:
-
-### Nginx collection:
-A collection to defend nginx against common attacks
-```bash
-sudo cscli collections install crowdsecurity/nginx
-```
-  
-### Nginx Proxy Manager collection:
-A collection to defend nginx against common attacks
-```bash
-sudo cscli collections install crowdsecurity/nginx-proxy-manager
-```
-  
-### Parse Nginx Proxy Manager access and error logs:
-```bash
-sudo cscli parsers install crowdsecurity/nginx-proxy-manager-logs
-```
-  
-## Install Nginx Bouncer:
-```bash
-sudo apt install nginx lua5.1 libnginx-mod-http-lua luarocks gettext-base lua-cjson && \
-sudo apt install crowdsec-nginx-bouncer
-```
-  
-```bash
-sudo systemctl restart nginx && \
-sudo systemctl reload crowdsec
-```  
-  
-### Debug:
-```bash
-sudo tail -f /var/log/crowdsec.log
-sudo cscli bouncers list
-sudo cscli decisions list
-cscli
-```  
-  
-### Enroll your CrowdSec instance at <a href="https://app.crowdsec.net/instances">app.crowdsec.net</a>  
   
 <a href="https://github.com/vdarkobar/NPM/blob/main/README.md#nginx-proxy-manager">top of the page</a>  
