@@ -65,8 +65,5 @@ Used for *DNS Challenge* to create *Wildcard Certificates* for your entire Domai
 
 > Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Token after = sign) > Save  
   
-  <br><br>
----
-  
-  
+     
 <a href="https://github.com/vdarkobar/NPM/blob/main/README.md#nginx-proxy-manager">top of the page</a>  
