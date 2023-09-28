@@ -2,8 +2,8 @@
 clear
 echo -ne "${GREEN}Enter Time Zone: "; read TZONE; \
 echo -ne "${GREEN}Enter NPM Port Number: "; read PORTN; \
-echo | tr -dc A-Za-z0-9 </dev/urandom | head -c 32 > secrets/db_root_pwd.secret && \
-echo | tr -dc A-Za-z0-9 </dev/urandom | head -c 32 > secrets/mysql_pwd.secret && \
+echo | tr -dc A-Za-z0-9 </dev/urandom | head -c 25 > secrets/db_root_pwd.secret && \
+echo | tr -dc A-Za-z0-9 </dev/urandom | head -c 25 > secrets/mysql_pwd.secret && \
 sed -i "s|01|${TZONE}|" .env && \
 sed -i "s|02|${PORTN}|" .env && \
 rm README.md && \
