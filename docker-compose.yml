@@ -57,7 +57,7 @@ services:
 
   # MariaDB - The open source relational database.
   db:
-    image: mariadb
+    image: mysql:latest
     restart: unless-stopped
 
     networks:
