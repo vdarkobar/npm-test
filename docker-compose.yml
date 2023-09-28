@@ -57,7 +57,7 @@ services:
 
   # MariaDB - The open source relational database.
   db:
-    image: jc21/mariadb-aria
+    image: mariadb
     restart: unless-stopped
 
     networks:
