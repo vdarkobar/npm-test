@@ -39,11 +39,11 @@ services:
         mode: host
 
     environment:
-      DB_MYSQL_HOST: "db"
-      DB_MYSQL_PORT: 3306
-      DB_MYSQL_USER: "npm_user"
-      DB_MYSQL_PASSWORD__FILE: /run/secrets/MYSQL_PWD
-      DB_MYSQL_NAME: "npm_db"
+      - DB_MYSQL_HOST=db
+      - DB_MYSQL_PORT=3306
+      - DB_MYSQL_USER=npm_user
+      - DB_MYSQL_PASSWORD__FILE=/run/secrets/MYSQL_PWD
+      - DB_MYSQL_NAME=npm_db
 
     volumes:
       - ./data:/data
@@ -64,10 +64,10 @@ services:
       - npm
 
     environment:
-      MYSQL_ROOT_PASSWORD__FILE: /run/secrets/DB_ROOT_PWD
-      MYSQL_DATABASE: "npm_db"
-      MYSQL_USER: "npm_user"
-      MYSQL_PASSWORD__FILE: /run/secrets/MYSQL_PWD
+      - MYSQL_ROOT_PASSWORD__FILE=/run/secrets/DB_ROOT_PWD
+      - MYSQL_DATABASE=npm_db
+      - MYSQL_USER=npm_user
+      - MYSQL_PASSWORD__FILE=/run/secrets/MYSQL_PWD
 
     volumes:
       - ./data/mysql:/var/lib/mysql
