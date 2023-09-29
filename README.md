@@ -25,7 +25,7 @@ Enable Port forwarding (80, 443) from your Router/Firewall to your NPM instance 
 ### *Run this command*:
 ```
 GREEN='\033[0;32m'; echo -ne "${GREEN}Enter directory name: "; read DIR; \
-mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/npm.git . && \
+mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/npm-test.git . && \
 chmod +x setup.sh && \
 ./setup.sh
 ```
