@@ -27,12 +27,12 @@ services:
         published: 80
         protocol: tcp
         mode: host
-        
+
       - target: 81
         published: $PORT
         protocol: tcp
         mode: host
-        
+
       - target: 443
         published: 443
         protocol: tcp
@@ -57,7 +57,7 @@ services:
 
   # MariaDB - The open source relational database.
   db:
-    image: mysql:latest
+    image: jc21/mariadb-aria
     restart: unless-stopped
 
     networks:
