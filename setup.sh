@@ -7,7 +7,6 @@ echo | tr -dc A-Za-z0-9 </dev/urandom | head -c 25 > secrets/mysql_pwd.secret &&
 sed -i "s|01|${TZONE}|" .env && \
 sed -i "s|02|${PORTN}|" .env && \
 rm README.md && \
-#rm data/mysql/tmp && \
 rm letsencrypt/tmp && \
 sudo rm -rf shared/ && \
 sudo chown -R root:root secrets/ && \
